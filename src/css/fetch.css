@@ -1,0 +1,64 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+ list-style: none;
+}
+
+.country-item{
+    display: flex;
+    align-items: center;
+}
+
+.country-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+.country-img {
+    
+    margin-right: 10px;
+}
+
+.counntry-name{
+    font-size: 20x;
+}
+
+.country-name__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.country-card-name{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.country-info-item{
+font-size: 20px;
+}
+
+.country-info{
+    width: 270px;
+}
+
+
+.country-info-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.country-info-text{
+    font-weight: 600;
+}
+
+#search-box:focus {
+    border-color: rgb(3, 3, 196);
+    outline: none;
+}
