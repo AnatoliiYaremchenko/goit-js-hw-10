@@ -29,7 +29,7 @@ const addCounrtyCard = arr => {
 
   const card = arr
     .map(el => {
-      const langs = Object.values(el.languages).join(',');
+      const langs = Object.values(el.languages).join(', ');
 
       return `<div class="country-name__wrapper">
                 <img class="country-img" src="${el.flags.svg}" alt="flag">
